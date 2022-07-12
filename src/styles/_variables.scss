@@ -1,0 +1,65 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+// //******** FONTS ********//
+// $roboto: 'Roboto', sans-serif;
+// $font-medium: 0.8rem;
+// $font-large: 2rem;
+
+// //******** COLORS ********//
+// $black: black;
+// $white: white;
+// $dark: rgb(29, 29, 29);
+// $light: #fff;
+// $primary: rgb(162, 162, 246);
+// $secondary: rgb(244, 244, 255);
+
+// //******** SPACINGS ********//
+// $spacing-medium: 1rem;
+// $spacing-large: 2rem;
+
+// //******** RADIUS ********//
+// $radius-medium: 12px;
+
+// //******** SIZINGS ********//
+// $headerHeight: 100px;
+
+// //******** TRANSITION ********//
+// $transition-all: 0.3s ease all;
+
+// @mixin breakpoint($point) {
+//     @if $point == medium {
+//         //768px
+//         @media (min-width: 48em) {
+//             @content;
+//         }
+//     }
+// }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+$Poppins: "Poppins", sans-serif;
+
+// colors
+$dark: rgb(29, 29, 29);
+$light: #fff;
+$primary: rgb(162, 162, 246);
+$bg: rgb(244, 244, 255);
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+// border radius
+$borderRadius: 12px;
+
+// header height
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+}
